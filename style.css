@@ -1,0 +1,59 @@
+.sections {
+        padding: 40px 0;
+}
+
+body {
+    font-size: 12px; 
+}
+.Part1-title {
+    font-size: 18px;
+}
+.Part1-text {
+    font-size: 12px;
+}
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .Part1-title {
+        font-size: 28px;
+    }
+    .Part1-text {
+        font-size: 16px;
+    }
+}
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+    .Part1-title {
+        font-size: 36px;
+    }
+    .Part1-text {
+        font-size: 20px;
+    }
+}
+.task1-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.task1-box {
+    background-color: #3498db;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    width: 100%; 
+    border-radius: 6px;
+}
+@media (min-width: 768px) {
+    .task1-box {
+        width: 250px;
+    }
+}
+@media (min-width: 1024px) {
+    .task1-box {
+        width: 300px;
+    }
+}
